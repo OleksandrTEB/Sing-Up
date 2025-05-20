@@ -1,0 +1,156 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.log {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.l1 {
+    background-color: rgb(207, 155, 11);
+    color: rgb(243, 229, 30);
+    padding: 6px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.l2 {
+    background-color: rgb(34, 40, 95);
+    color: rgb(243, 243, 92);
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.fn {
+    margin-left: 90px;
+    margin-right: 26px;
+}
+
+.ls {
+    margin-left: 90px;
+    margin-right: 26px;
+}
+
+.sn {
+    margin-left: 70px;
+    margin-right: 26px;
+}
+
+.mn {
+    margin-left: 79px;
+    margin-right: 26px;
+}
+
+.inputs {
+    border: none;
+    border-radius: 3px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 20px;
+    width: 260px;
+}
+
+.l3 {
+    background-color: rgb(207, 155, 11);
+    padding-left: 360px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.l3>input {
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.l3>input[value="Submit"] {
+    background-color: rgb(47, 138, 47);
+}
+
+.l3>input[value="Submit"]:hover {
+    cursor: pointer;
+}
+
+.l3>input[value="Submit"]:active {
+    background-color: green;
+}
+.l3>input[value="Cancel"] {
+    background-color: rgb(236, 43, 43);
+
+}
+
+.l3>input[value="Cancel"]:hover {
+    cursor: pointer;
+}
+
+.l3>input[value="Cancel"]:active {
+    background-color: red;
+}
+
+.mh {
+    width: 120px;
+    padding: 7px;
+}
+
+.nr {
+    width: 50px;
+}
+
+.yr {
+    width: 82px;
+}
+.gn{
+    margin-left: 114px;
+}
+.gm {
+    margin-left: 26px;
+}
+.gn, .gm {
+    margin-top: 20px;
+}
+.fm{
+    margin-right: 100px;
+}
+.cn {
+    margin-left: 112px;
+}
+.cm {
+    margin-left: 26px;
+}
+.em {
+    margin-left: 122px;
+}
+.el {
+    margin-left: 26px;
+}
+.ph {
+    margin-left: 122px;
+}
+.pn {
+    margin-left: 26px;
+}
+.ps {
+    margin-left: 99px;
+}
+.pv{
+    margin-left: 26px;
+}
+.cp {
+    margin-left: 39px;
+}
+.pc{
+    margin-left: 26px;
+    margin-right: 30px;
+}
+.box {
+    margin: 20px 5px 20px 200px;
+}
+input:focus {
+    background-color: rgb(183, 172, 194);
+    border-style: none;
+}

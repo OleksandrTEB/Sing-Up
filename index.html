@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="#">
+        <div class="log l1">
+            Sing UP
+        </div>
+
+        <div class="log l2">
+                <label for="First Name" class="labeles fn">First Name</label>
+                <input type="text" name="First Name" id="First Name" class="inputs" placeholder="Enter First Name">
+
+                <label for="Last Name" class="labeles ls">Last Name</label>
+                <input type="text" name="Last Name" id="Last Name"  class="inputs" placeholder="Enter Last Name">
+
+                <label for="Screen Name" class="labeles sn">Screen Name</label>
+                <input type="text" name="Screen Name" id="Screen Name" placeholder="Enter Screen Name" class="inputs">
+
+                <label for="month" class="labeles mn">Date of Birth</label>
+                <input type="month" name="month" id="month" placeholder="May" class="inputs mh">
+
+                <input type="number" name="number" id="number" class="inputs nr" min="1" max="31" placeholder="1">
+
+                <input type="number" name="year" id="year" class="inputs yr" min="1900" max="2025" placeholder="2000">
+
+                <label for="gender" class="labeles gn">Gender</label>
+                <input type="radio" name="gender" id="gender" class="gm">Male
+                <input type="radio" name="gender" id="gender"><span class="fm">Female</span>
+
+                <label for="Country" class="labeles cn">Country</label>
+                <input type="text" name="Country" id="Country" placeholder="USA" class="inputs cm">
+
+                <label for="email" class="labeles em">E-mail</label>
+                <input type="email" name="email" id="email" class="inputs el" placeholder="Enter E-mail">
+
+                <label for="Phone" class="labeles ph">Phone</label>
+                <input type="tel" name="Phone" id="Phone" class="inputs pn" placeholder="Ente Phone">
+
+                <label for="password" class="labeles ps">Password</label>
+                <input type="password" name="password" id="password" min="8" class="inputs pv">
+
+                <label for="password"class="labeles cp">Confirm Password</label>
+                <input type="password" name="password" id="password" min="8" class="inputs pc">
+
+                <input type="checkbox" name="checkbox" id="checkbox" class="box">
+                <label for="checkbox" class="labeles lbox">I agree to the Terms of Use</label>
+
+        </div>
+
+        <div class="log l3">
+            <input type="submit" value="Submit" >
+            <input type="button" value="Cancel" id="submit">
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
